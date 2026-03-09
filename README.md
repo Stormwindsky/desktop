@@ -1,6 +1,6 @@
-# TurboWarp Desktop
+# StormWarp Desktop
 
-TurboWarp as a desktop app.
+StormWarp as a desktop app.
 
 If you're looking for downloads, head to: https://desktop.turbowarp.org/
 
@@ -17,7 +17,7 @@ The website source code is in the `docs` folder.
 We use submodules, so clone using:
 
 ```bash
-git clone --recursive https://github.com/TurboWarp/desktop turbowarp-desktop
+git clone --recursive https://github.com/Stormwindsky/desktop turbowarp-desktop
 ```
 
 or run this after cloning:
