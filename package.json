@@ -1,11 +1,11 @@
 {
   "name": "turbowarp-desktop",
-  "description": "Scratch mod with a compiler, dark mode, a bunch of addons, and more.",
+  "description": "StormWarp is a Scratch mod based on Turbowarp with alots new features",
   "version": "1.15.2",
   "license": "GPL-3.0",
   "author": {
-    "email": "contact@turbowarp.org",
-    "name": "Thomas Weber"
+    "email": "Stormwindsky@proton.me",
+    "name": "Stormwindsky"
   },
   "type": "commonjs",
   "scripts": {
@@ -38,7 +38,7 @@
     "postcss-import": "^14.0.0",
     "postcss-loader": "^4.2.0",
     "postcss-simple-vars": "^6.0.3",
-    "scratch-gui": "github:TurboWarp/scratch-gui#develop",
+    "scratch-gui": "github:Stormwindsky/scratch-gui#develop",
     "style-loader": "^0.23.0",
     "url-loader": "^4.1.1",
     "webpack": "4.47.0",
@@ -49,19 +49,19 @@
       "terser-webpack-plugin": "^4.2.3"
     }
   },
-  "homepage": "https://desktop.turbowarp.org/",
+  "homepage": "https://stormwindsky.github.io/StormWarp/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TurboWarp/desktop.git"
+    "url": "https://github.com/Stormwindsky/desktop.git"
   },
   "bugs": {
-    "url": "https://github.com/TurboWarp/desktop/issues",
-    "email": "contact@turbowarp.org"
+    "url": "https://github.com/Stormwindsky/desktop/issues",
+    "email": "Stormwindsky@proton.me"
   },
   "main": "./src-main/entrypoint.js",
   "build": {
     "appId": "org.turbowarp.desktop",
-    "productName": "TurboWarp",
+    "productName": "StormWarp",
     "files": [
       "node_modules/**/*",
       "src-main/**/*",
@@ -155,7 +155,7 @@
       "artifactName": "${productName}-${os}-${arch}-${version}.${ext}",
       "icon": "./build/",
       "synopsis": "Mod of Scratch with a compiler and more features.",
-      "description": "TurboWarp is a Scratch mod with a compiler to run projects faster, dark mode for your eyes, a bunch of addons to improve the editor, and more.",
+      "description": "StormWarp is a Scratch mod based on Turbowarp with a compiler to run projects faster, dark mode for your eyes, a bunch of addons to improve the editor, and more.",
       "category": "Development",
       "desktop": {
         "entry": {
@@ -179,7 +179,7 @@
       ]
     },
     "snap": {
-      "summary": "Scratch mod with a compiler, dark mode, a bunch of addons, and more.",
+      "summary": "Scratch mod based on Turbowarp with alots features AWESOME :D",
       "allowNativeWayland": true,
       "plugs": [
         "default",
@@ -213,6 +213,13 @@
         "description": "Scratch 1 Project",
         "role": "Editor",
         "mimeType": "application/x.scratch.sb"
+      },
+      {
+        "ext": "sw",
+        "name": "StormWarp Project",
+        "description": "StormWarp Project",
+        "role": "Editor",
+        "mimeType": "application/x.scratch.sw"
       }
     ]
   },
